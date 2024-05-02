@@ -1,0 +1,82 @@
+.menu-item{
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+.menu-item.primary:hover{
+    background-color: #1890ff;
+    color: white;
+}
+.menu-item.primary.active{
+    background-color: #1890ff;
+    color: white;
+}
+
+.menu-item.success:hover{
+    background-color: #52c41a;
+    color: white;
+}
+.menu-item.success.active{
+    background-color: #52c41a;
+    color: white;
+}
+
+.menu-item.danger:hover{
+    background-color: #d9363e;
+    color: white;
+}
+.menu-item.danger.active{
+    background-color: #d9363e;
+    color: white;
+}
+
+.menu-item.yellow:hover{
+    background-color: #fadb14;
+    color: white;
+}
+.menu-item.yellow.active{
+    background-color: #fadb14;
+    color: white;
+}
+
+.menu-item.black:hover{
+    background-color: #111;
+    color: white;
+}
+.menu-item.black.active{
+    background-color: #111;
+    color: white;
+}
+.box.primary{
+    background-color: #1890ff;
+}
+.box.success{
+    background-color: #52c41a;
+}
+.box.danger{
+    background-color: #d9363e;
+}
+.box.yellow{
+    background-color: #fadb14;
+}
+.box.black{
+    background-color: #111;
+}
+.blinking{
+    animation: blink 1s infinite;
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
